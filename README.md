@@ -18,7 +18,7 @@ This project demonstrates how to load, explore, and visualize **NASA PACE/OCI** 
 
 ---
 
-## Quick Start
+## Process
 
 ### 1) Get the data
 
