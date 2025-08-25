@@ -86,19 +86,10 @@ Open `SatelliteImagery_PACE-OCI_Projects.ipynb`.
 7. **Map Projection**
    Uses Cartopy with lat/lon to render georeferenced imagery
 
-8. **Special Codes for Projects**
-
-   * **Land Project**: **NDVI**:
-
-     $$
-     \mathrm{NDVI} = \frac{S_{b1} - S_{b2}}{S_{b1} + S_{b2}}
-     $$
-
-     (pick two bands appropriate for vegetation; values in $-1, 1$)
 
 ---
 
-## Usage Tips
+## Helpful insights
 
 * **Pick bands** thoughtfully for RGB (e.g., a red-ish, green-ish, and blue-ish channel).
 * If imagery looks blown out, **adjust radiance/reflectance scales** in the plotting cells.
@@ -107,43 +98,16 @@ Open `SatelliteImagery_PACE-OCI_Projects.ipynb`.
 
 ---
 
-## Troubleshooting
 
-* **`ModuleNotFoundError` (netCDF4/cartopy)**
-  Install into the **same kernel** you’re running:
-
-  ```python
-  import sys; print(sys.executable)
-  # then:
-  "!{sys.executable}" -m pip install netCDF4 cartopy pyproj shapely
-  ```
-
-  Or use the conda option above.
-
-* **`jupyter: command not found`**
-  Launch via Python to bypass PATH issues:
-
-  ```bash
-  py -m jupyter lab
-  ```
-
-* **Windows SSL/TLS certificate errors** (pip can’t download)
-  Clear certificate overrides as shown in Quick Start.
-
-* **Cartopy PROJ/GEOS errors on Windows**
-  Prefer the **conda-forge** environment:
-
-  ```bash
-  conda create -n pacedata -c conda-forge python=3.12 cartopy pyproj shapely netcdf4 -y
-  ```
 
 ---
+![Wilefiles Sprecta Reflectance Analysis Final Presentation](Aerosols.png)
 📑 [View the full presentation (PDF)](WildfilesinAmazon.pdf)
 
 ---
 
 ## Acknowledgments
 
-* NASA **PACE/OCI** mission and data providers
+* I would like to thank Brent Mcbride, Post Doc at UMBC for helping me with the code and analysis.
 * Open-source Python ecosystem: NumPy, Matplotlib, netCDF4, Cartopy
 
