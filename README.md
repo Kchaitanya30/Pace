@@ -2,7 +2,7 @@
 
 # Satellite Imagery & Analysis with PACE OCI
 
-This project demonstrates how to load, explore, and visualize **NASA PACE/OCI** Level-1C data in Python/Jupyter. You’ll open a NetCDF file, browse metadata, plot single-band images and RGB composites, inspect pixel spectra, project imagery on a map, and compute simple indices (e.g., **NDVI** for the land project).
+This project demonstrates how to load, explore, and visualize **NASA PACE/OCI** Level-1C data in Python/Jupyter. You’ll open a NetCDF file, browse metadata, plot single-band images and RGB composites, inspect pixel spectra, project imagery on a map, and compute simple indices.
 
 > Notebook: `SatelliteImagery_PACE-OCI_Projects.ipynb`
 
