@@ -101,7 +101,7 @@ Open `SatelliteImagery_PACE-OCI_Projects.ipynb`.
 
 
 ---
-**Final Presentation of Wildfires Spectra Reflectance Analysis**
+## Final Presentation of Wildfires Spectra Reflectance Analysis
 ![Wilefiles Sprecta Reflectance Analysis Final Presentation](Aerosols_PPT.png)
 📑 [View the full presentation (PDF)](WildfilesinAmazon.pdf)
 
