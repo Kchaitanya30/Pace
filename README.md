@@ -32,7 +32,8 @@ This project demonstrates how to load, explore, and visualize **NASA PACE/OCI** 
 Place a PACE/OCI Level-1C file in (or adjust path inside the notebook):
 
 ```
-../Thursday/PACE_OCI.20240918T171411.L1C.V3.5km.nc
+../data/PACE_OCI.20240918T171411.L1C.V3.5km.nc
+nc
 ```
 
 ### 2) Environment setup (choose one)
@@ -158,16 +159,6 @@ Open `SatelliteImagery_PACE-OCI_Projects.ipynb`.
   ```
 
 ---
-
-## Repository Structure (suggested)
-
-```
-.
-├─ SatelliteImagery_PACE-OCI_Projects.ipynb   # main notebook
-├─ data/                                      # (optional) put .nc files here
-├─ figures/                                   # (optional) saved plots
-└─ README.md
-```
 
 ---
 
