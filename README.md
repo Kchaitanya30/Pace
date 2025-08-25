@@ -73,7 +73,7 @@ Open `SatelliteImagery_PACE-OCI_Projects.ipynb`.
 3. **Wavelengths & Radiances**
    Lists available wavelengths, selects bands, and sets display ranges.
    
-   ![Satellite imagery at various wavelenghts Output](Imageryinwlandtargets.png)
+   ![Satellite imagery at various wavelenghts Output](Imageryinwland targets.png)
 
 5. **Plotting**
 
@@ -101,7 +101,7 @@ Open `SatelliteImagery_PACE-OCI_Projects.ipynb`.
 
 
 ---
-![Wilefiles Sprecta Reflectance Analysis Final Presentation](Aerosols.png)
+![Wilefiles Sprecta Reflectance Analysis Final Presentation](Aerosols_PPT.png)
 📑 [View the full presentation (PDF)](WildfilesinAmazon.pdf)
 
 ---
