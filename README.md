@@ -85,7 +85,7 @@ Open `SatelliteImagery_PACE-OCI_Projects.ipynb`.
    ![Spectra of specific pixel value in the image](Spectra_of_the_pixel.png)
 7. **Map Projection**
    Uses Cartopy with lat/lon to render georeferenced imagery
-
+   ![Projection of Image on the Map](Projection.png)
 
 ---
 
