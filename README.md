@@ -72,20 +72,21 @@ Open `SatelliteImagery_PACE-OCI_Projects.ipynb`.
 
 3. **Wavelengths & Radiances**
    Lists available wavelengths, selects bands, and sets display ranges.
-![Satellite imagery at various wavelenghts Output](figures/Imageryinwland targets.png)
+   
+![Satellite imagery at various wavelenghts Output](Imageryinwland targets.png)
 
-4. **Plotting**
+5. **Plotting**
 
    * Single-band quicklooks
    * **RGB composite** (choose 3 bands → visualize)
-![RGB Composite Image](figures/RGB.png)
-5. **Pixel Spectra**
+![RGB Composite Image](RGB.png)
+6. **Pixel Spectra**
    Select pixel(s) by (x, y) and plot spectrum across wavelengths.
-   ![Spectra of specific pixel value in the image](figures/Spectra_of_the_pixel.png)
-6. **Map Projection**
+   ![Spectra of specific pixel value in the image](Spectra_of_the_pixel.png)
+7. **Map Projection**
    Uses Cartopy with lat/lon to render georeferenced imagery
 
-7. **Special Codes for Projects**
+8. **Special Codes for Projects**
 
    * **Land Project**: **NDVI**:
 
