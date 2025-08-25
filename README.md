@@ -159,7 +159,7 @@ Open `SatelliteImagery_PACE-OCI_Projects.ipynb`.
   ```
 
 ---
-📑 [View the full presentation (PDF)](/WildfilesinAmazon.pdf)
+📑 [View the full presentation (PDF)](WildfilesinAmazon.pdf)
 
 ---
 
