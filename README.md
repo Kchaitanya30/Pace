@@ -1,7 +1,4 @@
 # Relectance using Pace data
-Awesome—here’s a clean, copy-paste **README.md** for your repo based on the notebook you uploaded.
-
----
 
 # Satellite Imagery & Analysis with PACE OCI
 
@@ -18,10 +15,6 @@ This project demonstrates how to load, explore, and visualize **NASA PACE/OCI** 
 * Plot per-band images and a 3-band **RGB composite**
 * Extract and plot **spectra** from selected pixels
 * **Map projection** with Cartopy (lat/lon)
-* “Special Codes for Specific Projects”:
-
-  * **Land**: compute **NDVI**
-  * (Room for other projects—ocean, atmosphere, etc.)
 
 ---
 
@@ -36,9 +29,9 @@ Place a PACE/OCI Level-1C file in (or adjust path inside the notebook):
 nc
 ```
 
-### 2) Environment setup (choose one)
+### 2) Environment setup 
 
-#### Option A: pip (simple)
+#### pip 
 
 ```bash
 # Windows (Command Prompt or PowerShell)
@@ -46,22 +39,6 @@ py -m pip install --upgrade pip
 pip install jupyterlab numpy matplotlib netCDF4 cartopy pyproj shapely
 ```
 
-#### Option B: conda (recommended for geospatial libs)
-
-```bash
-conda create -n pacedata -c conda-forge python=3.12 \
-  jupyterlab numpy matplotlib netcdf4 cartopy pyproj shapely -y
-conda activate pacedata
-```
-
-> If you previously had TLS/SSL certificate issues on Windows (e.g., PostgreSQL set CA vars), clear overrides before installing:
->
-> ```
-> set REQUESTS_CA_BUNDLE=
-> set CURL_CA_BUNDLE=
-> set PIP_CERT=
-> set SSL_CERT_FILE=
-> ```
 
 ### 3) Launch Jupyter
 
@@ -95,17 +72,18 @@ Open `SatelliteImagery_PACE-OCI_Projects.ipynb`.
 
 3. **Wavelengths & Radiances**
    Lists available wavelengths, selects bands, and sets display ranges.
+![Satellite imagery at various wavelenghts Output](figures/Imageryinwland targets.png)
 
 4. **Plotting**
 
    * Single-band quicklooks
    * **RGB composite** (choose 3 bands → visualize)
-
+![RGB Composite Image](figures/RGB.png)
 5. **Pixel Spectra**
    Select pixel(s) by (x, y) and plot spectrum across wavelengths.
-
+   ![Spectra of specific pixel value in the image](figures/Spectra_of_the_pixel.png)
 6. **Map Projection**
-   Uses Cartopy with lat/lon to render georeferenced imagery (e.g., PlateCarree).
+   Uses Cartopy with lat/lon to render georeferenced imagery
 
 7. **Special Codes for Projects**
 
