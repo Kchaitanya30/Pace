@@ -73,7 +73,7 @@ Open `SatelliteImagery_PACE-OCI_Projects.ipynb`.
 3. **Wavelengths & Radiances**
    Lists available wavelengths, selects bands, and sets display ranges.
    
-   ![Satellite imagery at various wavelenghts Output](Imageryinwlandtargets.png)
+   ![Satellite imagery at various wavelenghts Output](Imageryinwithtargets.png)
 
 5. **Plotting**
 
